@@ -1,0 +1,12 @@
+-- SILVER_ORDERS_DETAILS
+CREATE TABLE IF NOT EXISTS SILVER_ORDERS_DETAILS
+(
+    order_id            NUMBER,
+    product_id          NUMBER,
+    unit_price          FLOAT,
+    quantity            NUMBER,
+    discount            FLOAT,
+    total               FLOAT, -- Calculated field: quantity * unit_price
+    created_at          TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP()
+);
+

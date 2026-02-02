@@ -2,7 +2,7 @@
 name: Deploy Snowflake View
 
 env:
-# Set the production schema name
+  # Set the production schema name
   SCHEMA_PRD: FORMACAO
 
 on:

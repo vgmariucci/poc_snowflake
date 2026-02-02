@@ -1,3 +1,4 @@
+-- Create Bronze Table for Customers Data
 CREATE TABLE IF NOT EXISTS BRONZE_CUSTOMERS (
     raw VARIANT,            -- JSON data at first column ($1)
     filename STRING,        -- Source File name

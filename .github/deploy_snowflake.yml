@@ -1,6 +1,8 @@
+# GitHub Actions workflow to deploy Snowflake views and other SQL scripts
 name: Deploy Snowflake View
 
 env:
+# Set the production schema name
   SCHEMA_PRD: FORMACAO
 
 on:
